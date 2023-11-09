@@ -40,7 +40,7 @@ public class Account {
         return this.balance;
     }
     public boolean withdraw(double amount){
-        if (Utility.testPositive(amount) > 0.00){
+        if (Utility.testPositive(amount) <= this.balance){
             this.balance -= amount;
             return true;
         }else return false;
