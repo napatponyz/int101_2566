@@ -52,15 +52,15 @@ public class Int101Homework02 {
         System.out.println(account1.getNo());
         System.out.println((account1.getOwner()));
         System.out.println(account1.getBalance());
-        System.out.println("Deposit amount Success "+account1.deposit(45.89));
-        System.out.println("Withdraw amount Success "+account1.withdraw(56.00));
-        System.out.println("Transfer Success "+account1.transfer(34.55,account2));
+        System.out.println("Deposit amount "+account1.deposit(45.89));
+        System.out.println("Withdraw amount "+account1.withdraw(56.00));
+        System.out.println("Transfer "+account1.transfer(34.55,account2));
 
 
 
         System.out.println(account2);
         System.out.println(account1);
-        System.out.println("Deposit amount Success "+account2.deposit(1000.00));
+        System.out.println("Deposit amount "+account2.deposit(1000.00));
 
 
 
